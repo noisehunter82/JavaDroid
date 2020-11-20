@@ -22,7 +22,7 @@ public class Droid {
   }
 
   public void shareEnergy(Droid otherDroid, int energyAmount) {
-    // Check if battery level. Droid can't transfer more than 50% of its current
+    // Check battery level. Droid can't transfer more than 50% of its current
     // battery level.
     if (energyAmount <= batteryLevel / 2) {
       batteryLevel -= energyAmount;
